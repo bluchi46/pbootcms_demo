@@ -1,0 +1,86 @@
+
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: table;
+ 
+}
+ 
+/* 真正清除浮动的标签 */
+.clearfix::after {
+    clear: both;
+}
+
+
+a{
+    color: #7c7c7d;
+}
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+/* 头部样式 */
+header{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 80px;
+    background-color: #f8f9fa;
+    color: #7c7c7d;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+header>ul>li a:hover{
+    color: black;
+    transition: all 0.5s;
+}
+
+header>ul>li,
+header img{
+    float: left;
+}
+header img{
+    position: relative;
+    left: 56px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+header>ul{
+    margin-left: 575px;
+    height: 100%;
+    font-size: 15px;
+   
+}
+
+header>ul>li{
+    margin-left: 27px;
+    height: 100%;
+    text-align: center;
+    line-height: 80px;
+}
+
+/* footer */
+footer>div{
+    color: #7c7c7d;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+footer>div>span{
+    line-height: 50px;
+}
+footer>div>ul>li{
+    float: left;
+}
+
+footer>div>span a::after{
+    content: '|';
+    margin: 0 2px;
+}
+footer a.last::after{
+    content: '';
+}

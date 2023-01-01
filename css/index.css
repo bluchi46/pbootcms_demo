@@ -1,0 +1,190 @@
+/* 轮播图  main*/
+
+
+@keyframes ppt{
+    0%{
+        left: 0;
+    }
+
+    50%{
+        left: -100%;
+    }
+
+    100%{
+        left: -200%;
+    }
+}
+
+header{
+    margin-top: -80px;
+}
+main{
+    margin-top: 80px;
+}
+
+.show{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+ 
+}
+
+.swiper{
+    width: 200%;
+    float: left;
+    position: absolute;
+    left: 0%;
+    /* animation-name: a;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition-property: all;
+    animation-timing-function: ease-in ; */
+    /* animation: ppt 7s ease-in-out infinite; */
+    /* animation-delay:  1s; */
+}
+
+
+.swiper img{
+    width: 50%;
+    float: left;
+}
+
+
+
+
+/* <!-- 系统部分 --> */
+#system_list{
+    margin-top: 3rem;
+    font-size: 20px;
+}
+
+
+#system_list>h3,#system_list>h4,
+#section1>h3,#section1>h4,
+#section2>h3,#section2>h4{
+    text-align: center;
+}
+
+#system_list>h4,
+#section1>h4,
+#section2>h4{
+    margin-bottom: 2rem;
+}
+
+
+#system_list>h3,
+#section1>h3,
+#section2>h3{
+    font-size: 2rem;
+    color: rgb(23, 162, 184);
+}
+
+#system_list>h4,
+#section1>h4,
+#section2>h4{
+    font-size: 1rem;
+    color: rgb(108, 117, 125);
+    /* text-decoration: 1px underline double #ccc; */
+}
+
+#system_list>h4 span,
+#section1>h4 span,
+#section2>h4 span{
+    border-bottom: 3px double #ccc;
+}
+
+#system_list .wrapper_list1,
+#system_list .wrapper_list2{
+    width: 50%;
+    float: left; 
+}   
+
+#system_list .list1{
+    float: right;
+    margin-right: 2rem;
+}
+
+#system_list .list2{
+    margin-left: 2rem;
+}
+
+#system_list .list1 .date,
+#system_list .list2 .date{
+    margin-left: 13rem;
+}
+
+#system_list .list1 li:nth-child(n+2),
+#system_list .list2 li:nth-child(n+2){
+    border-bottom: 1px dashed #dee2e6 ;
+    text-align: top;
+    line-height: 2.4em;
+}
+
+#system_list a{
+        color: black;
+        font-size: 0.9rem;
+        text-decoration: none;
+}
+
+/* 系统简介 */
+#section1{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#section1 article p{
+    line-height: 2rem;
+    text-indent: 2rem;
+    font-size: 1rem;
+    color: rgb(108, 117, 125);
+}
+
+/* 系统特色 */
+#section2{
+    background-color: #f8f9fa;
+    margin-top: 3rem;
+    padding: 3rem 0;
+}
+#section2 ul {
+    width: 90%;
+    margin: 0 auto;
+}
+#section2 ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+#section2 ul h4{
+    font-weight: bolder;
+    font-size: 1rem;
+}
+#section2 ul p{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 0.5rem;
+    color: rgb(108, 117, 125);
+}
+/* 动画 */
+#section1 h3,
+#section2 h3{
+    animation-name: fadeInDown;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    visibility: visible;
+}
+#section1 h4,
+#section1>article p,
+#section1>article a,
+/* #section2 li, */
+#section2>h4{
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: fadeInUp;
+}

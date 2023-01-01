@@ -1,0 +1,115 @@
+header{
+    top: 0;
+}
+main{
+    width: 85%;
+    margin: 0 auto;
+}
+#section1{
+    margin-top: 90px;
+}
+#section1 img{
+    width: 100%;
+}
+#section1 a{
+    color: red;
+}
+#section1 div:last-child{
+    font-size: 1rem;
+}
+#section2{
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+#section2 input{
+    height: 2rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+#section2 input:nth-child(1){
+
+}
+#section2 input:nth-child(2){
+    color: white;
+    padding: 1px;
+    background-color: #17a2b8;
+    border:none;
+    width: 3rem;
+    margin-left: 0.5rem;
+    border-radius: 5px;
+}
+#section2 input:nth-child(2):hover{
+    cursor: pointer;
+}
+#section3{
+    width: 100%;
+    height: 100px;
+}
+#section3 li>div{
+    width: 90%;
+    /* background-color: turquoise; */
+    border: 1px solid rgba(0,0,0,.125);
+    font-size: 1rem;
+    border-radius: 5px;
+
+}
+
+#section3 li>div div:last-child{
+    margin-top: 2em;
+    padding: 1em 0;
+    border-top: 1px solid rgba(0,0,0,.125);
+    font-size: 0.5rem;
+    text-align: center;
+}
+#section3 li>div div:last-child span:first-child{
+    margin-right: 1rem;
+}
+#section3 img{
+    width: 100%;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+#section3 li{
+    float: left;
+    width: 25%;
+    /* height: 500px; */
+    /* background-color: turquoise; */
+    margin-bottom: 3rem;
+    /* padding-right: 0.5rem; */
+    /* box-sizing: border-box; */
+}
+
+#section3 li h4{
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+#section3 li div.keyword span:first-child{
+    vertical-align: text-top;
+    font-weight: 700;
+    line-height: 1;
+    padding: 2px;
+    border-radius: 0.25rem;
+    color: #fff;
+    background-color: #dc3545;
+}
+#section3 li div.keyword span:nth-child(2){
+    vertical-align: text-top;
+    font-weight: 700;
+    line-height: 1;
+    padding: 2px;
+    border-radius: 0.25rem;
+    color: #fff;
+    background-color: #ffc107;
+    margin: 0 2px;
+}
+#section3 li div.keyword{
+    padding-left: 1rem;
+    box-sizing: border-box;
+}
+#section3 li div.keyword p{
+    display: inline;
+}
+

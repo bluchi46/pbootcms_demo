@@ -1,0 +1,33 @@
+header{
+    top: 0;
+}
+main{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 90px;
+    font-size: 1rem;
+    line-height: 2;
+}
+#imgs{
+    width: 100%;  
+    margin: 0 auto;
+}
+#imgs img{
+    width: 100%;
+}
+#left_content,#right_content{
+    margin-top: 2rem;
+    width: 50%;
+    float: left;
+}
+#right_content{
+    padding-left: 2rem;
+    box-sizing: border-box;
+}
+#img1 img{
+    width: 50%;
+    vertical-align: middle;
+}
+#img2 img{
+    width: 90%;
+}

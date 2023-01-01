@@ -1,0 +1,53 @@
+header{
+    top: 0;
+}
+main{
+    /* background-color: aqua; */
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+#imgs img{
+    width: 100%;
+}
+#section1 input{
+    margin: 0 5px;
+}
+#section2{
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+#section2 input{
+    height: 2rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+#section2 input:nth-child(2){
+    color: white;
+    padding: 1px;
+    background-color: #17a2b8;
+    border:none;
+    width: 3rem;
+    margin-left: 0.5rem;
+    border-radius: 5px;
+}
+#section2 input:nth-child(2):hover{
+    cursor: pointer;
+}
+#section3 li{
+    width: 100%;
+    border-bottom: 1px dashed #dee2e6;
+}
+#section3 li a{
+    font-size: 1rem;
+    line-height: 2;
+    color: #212529
+}
+#section3 li a:first-child{
+    float: left;
+}
+#section3 li a:last-child{
+    float: right;
+}
